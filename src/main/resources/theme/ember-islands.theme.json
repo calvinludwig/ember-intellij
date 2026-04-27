@@ -17,14 +17,14 @@
     "base6": "#6b6460",
     "base7": "#8a8278",
     "base8": "#b0a898",
-    "coral":  "#e08060",
+    "coral": "#e08060",
     "orange": "#c09058",
-    "gold":   "#c8b468",
-    "olive":  "#8a9868",
-    "sage":   "#80a090",
-    "steel":  "#7890a0",
-    "rose":   "#b07878",
-    "mauve":  "#988090",
+    "gold": "#c8b468",
+    "olive": "#8a9868",
+    "sage": "#80a090",
+    "steel": "#7890a0",
+    "rose": "#b07878",
+    "mauve": "#988090",
     "transparent": "#00000000"
   },
   "ui": {
@@ -33,7 +33,7 @@
       "borderColor": "base3"
     },
     "*": {
-      "background": "base3",
+      "background": "bg",
       "foreground": "fg",
       "errorForeground": "rose",
       "warningForeground": "gold",
@@ -109,7 +109,7 @@
       "infoFocusColor": "steel"
     },
     "DefaultTabs": {
-      "background": "base3",
+      "background": "bg",
       "borderColor": "base4",
       "underlineColor": "coral",
       "inactiveUnderlineColor": "base5",
@@ -126,7 +126,7 @@
       "inactiveBackground": "bg"
     },
     "EditorTabs": {
-      "background": "base3",
+      "background": "bg",
       "borderColor": "base4",
       "underlineColor": "coral",
       "inactiveUnderlineColor": "base5",
@@ -139,11 +139,11 @@
     },
     "FileColor": {
       "Yellow": "#363225",
-      "Green":  "#26301f",
-      "Blue":   "#1f2a31",
+      "Green": "#26301f",
+      "Blue": "#1f2a31",
       "Violet": "#2a2128",
       "Orange": "#33291f",
-      "Rose":   "#322528"
+      "Rose": "#322528"
     },
     "Label": {
       "foreground": "fg",
@@ -159,7 +159,7 @@
       "secondaryForeground": "steel"
     },
     "List": {
-      "background": "base3",
+      "background": "bg",
       "foreground": "fg",
       "selectionBackground": "base4",
       "selectionInactiveBackground": "base4",
@@ -219,7 +219,7 @@
       }
     },
     "Panel": {
-      "background": "base3",
+      "background": "bg",
       "foreground": "fg"
     },
     "Plugins": {
@@ -317,7 +317,7 @@
       "foreground": "base4"
     },
     "SidePanel": {
-      "background": "base3"
+      "background": "bg"
     },
     "StatusBar": {
       "background": "base3",
@@ -325,14 +325,14 @@
       "hoverBackground": "base4"
     },
     "TabbedPane": {
-      "background": "base3",
+      "background": "bg",
       "focusColor": "coral",
       "hoverColor": "base4",
       "underlineColor": "coral",
       "contentAreaColor": "base4"
     },
     "Table": {
-      "background": "base3",
+      "background": "bg",
       "foreground": "fg",
       "gridColor": "base4",
       "selectionBackground": "base4",
@@ -342,7 +342,7 @@
       "hoverBackground": "base4"
     },
     "TableHeader": {
-      "background": "base3",
+      "background": "bg",
       "foreground": "fgAlt",
       "bottomSeparatorColor": "base4"
     },
@@ -372,14 +372,14 @@
       "buttonColor": "fg"
     },
     "ToolBar": {
-      "background": "base3",
+      "background": "bg",
       "borderHandleColor": "base4"
     },
     "ToolWindow": {
-      "background": "base3",
+      "background": "bg",
       "Header": {
-        "background": "base3",
-        "inactiveBackground": "base3",
+        "background": "bg",
+        "inactiveBackground": "bg",
         "borderColor": "transparent"
       },
       "HeaderTab": {
@@ -404,7 +404,7 @@
       "linkForeground": "coral"
     },
     "Tree": {
-      "background": "base3",
+      "background": "bg",
       "foreground": "fg",
       "selectionBackground": "base4",
       "selectionInactiveBackground": "base4",
@@ -463,23 +463,23 @@
   },
   "icons": {
     "ColorPalette": {
-      "Actions.Red":     "rose",
-      "Actions.Yellow":  "gold",
-      "Actions.Green":   "olive",
-      "Actions.Blue":    "steel",
-      "Actions.Grey":    "fgAlt",
-      "Actions.GreyInline.Dark":  "fgAlt",
-      "Objects.Red":     "rose",
-      "Objects.Yellow":  "gold",
-      "Objects.Green":   "olive",
-      "Objects.Blue":    "steel",
-      "Objects.Grey":    "fgAlt",
-      "Objects.Pink":    "mauve",
-      "Objects.Purple":  "mauve",
-      "Objects.RedStatus":   "rose",
-      "Objects.YellowDark":  "gold",
-      "Objects.GreenAndroid":"olive",
-      "Objects.BlackText":   "base0"
+      "Actions.Red": "rose",
+      "Actions.Yellow": "gold",
+      "Actions.Green": "olive",
+      "Actions.Blue": "steel",
+      "Actions.Grey": "fgAlt",
+      "Actions.GreyInline.Dark": "fgAlt",
+      "Objects.Red": "rose",
+      "Objects.Yellow": "gold",
+      "Objects.Green": "olive",
+      "Objects.Blue": "steel",
+      "Objects.Grey": "fgAlt",
+      "Objects.Pink": "mauve",
+      "Objects.Purple": "mauve",
+      "Objects.RedStatus": "rose",
+      "Objects.YellowDark": "gold",
+      "Objects.GreenAndroid": "olive",
+      "Objects.BlackText": "base0"
     }
   }
 }
