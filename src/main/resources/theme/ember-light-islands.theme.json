@@ -63,10 +63,10 @@
       "ContrastBorderColor": "base5"
     },
     "Button": {
-      "background": "base4",
+      "background": "bg",
       "foreground": "fg",
-      "startBackground": "base4",
-      "endBackground": "base4",
+      "startBackground": "bg",
+      "endBackground": "bg",
       "startBorderColor": "base5",
       "endBorderColor": "base5",
       "focusedBorderColor": "coral",
@@ -78,8 +78,14 @@
         "startBorderColor": "coral",
         "endBorderColor": "coral",
         "focusedBorderColor": "coral",
-        "focusColor": "coral"
-      }
+        "focusColor": "transparent",
+        "borderColor": "coral",
+        "shadowColor": "transparent",
+        "outlineColor": "coral",
+        "shadowWidth": 0
+      },
+      "shadowColor": "transparent",
+      "shadowWidth": 0
     },
     "Counter": {
       "background": "coral",
