@@ -1,0 +1,50 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>ember-intellij</id>
+    <version>0.1.0</version>
+
+    <name>Ember</name>
+    <category>UI</category>
+
+    <vendor email="calvinludwig@pm.me">Calvin Ludwig</vendor>
+
+    <idea-version since-build="252"/>
+
+    <description><![CDATA[
+        <p><strong>Ember</strong> — a warm, monochrome color theme for JetBrains IDEs.
+        One vivid coral spark in a sea of warm graphite.</p>
+
+        <p>Ships six variants:</p>
+        <ul>
+          <li><em>Ember</em>, <em>Ember Soft</em>, <em>Ember Light</em> — classic look on Darcula / Light bases.</li>
+          <li><em>Islands Ember</em>, <em>Islands Ember Soft</em>, <em>Islands Ember Light</em> — same palette on JetBrains' Islands base theme (cards-on-canvas chrome, transparent toolbars/status bar).</li>
+        </ul>
+
+        <p>Palette mirrors <a href="https://github.com/ember-theme/ember">ember-theme/ember</a>; syntax mapping ports the conventions from <a href="https://github.com/ember-theme/nvim">ember-theme/nvim</a>.</p>
+        ]]></description>
+
+    <change-notes><![CDATA[
+        <h3>0.1.0</h3>
+        <ul>
+          <li>Initial release.</li>
+          <li>Three regular variants: Ember, Ember Soft, Ember Light.</li>
+          <li>Three Islands variants targeting JetBrains' Islands base theme.</li>
+          <li>Editor color scheme covers default text attributes; language-specific overrides inherit from Darcula / Default.</li>
+        </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="65b64e3b-48d5-48c5-8921-a221d953a4ed" path="/theme/ember.theme.json"/>
+        <themeProvider id="f16ad4a8-fbc2-48d9-bb5c-d9bcae7f44c9" path="/theme/ember-soft.theme.json"/>
+        <themeProvider id="44342dea-3a2c-4e89-9714-b63c65fb0b26" path="/theme/ember-light.theme.json"/>
+        <themeProvider id="df306c01-6d22-44f0-9755-904c33985d7a" path="/theme/ember-islands.theme.json"        targetUi="islands"/>
+        <themeProvider id="a0762110-d217-416e-a68a-e44d27d59d0c" path="/theme/ember-soft-islands.theme.json"   targetUi="islands"/>
+        <themeProvider id="be5cfed1-91f0-49ce-b2dc-a86d18ab9973" path="/theme/ember-light-islands.theme.json"  targetUi="islands"/>
+
+        <bundledColorScheme id="com.calvinludwig.ember.scheme"       path="/theme/ember"/>
+        <bundledColorScheme id="com.calvinludwig.ember.soft.scheme"  path="/theme/ember-soft"/>
+        <bundledColorScheme id="com.calvinludwig.ember.light.scheme" path="/theme/ember-light"/>
+    </extensions>
+</idea-plugin>
